@@ -923,7 +923,7 @@ textarea:focus {
 ---------------------------------*/
 .section-space {
   padding-top: 60px;
-  padding-bottom: 110px;
+  padding-bottom: 60px;
 }
 @media only screen and (max-width: 991px) {
   .section-space {
@@ -933,7 +933,7 @@ textarea:focus {
 }
 @media only screen and (max-width: 767px) {
   .section-space {
-    padding-top: 70px;
+    padding-top: 0px;
     padding-bottom: 0px;
   }
 }
@@ -985,7 +985,7 @@ textarea:focus {
 }
 @media only screen and (max-width: 767px), only screen and (max-width: 575px) {
   .section-space-top {
-    padding-top: 70px;
+    padding-top: 50px;
   }
 }
 
@@ -1304,7 +1304,7 @@ textarea:focus {
   color: var(--rs-white);
 }
 .rs-btn.has-theme-orange {
-  background: var(--rs-theme-orange);
+  background: #f97700;
 }
 .rs-btn.has-theme-red {
   background: #f97700;
@@ -1314,7 +1314,7 @@ textarea:focus {
 }
 .rs-btn.has-theme-red.has-bg::before {
   content: "";
-  background-color: #D40A06;
+  background-color: #061b47;
 }
 .rs-btn.has-theme-red.has-bg:hover {
   filter: unset;
@@ -2975,6 +2975,7 @@ textarea:focus {
 @media only screen and (max-width: 480px) {
   .rs-breadcrumb-one .rs-breadcrumb-title {
     font-size: 35px;
+    margin-bottom: -40px;
   }
 }
 .rs-breadcrumb-one .rs-breadcrumb-menu ul {
@@ -5594,7 +5595,7 @@ html.lenis body {
 .rs-header-one .rs-header-logo-wrapper {
   width: 295px;
   height: 98px;
-  background-color: var(--rs-bg-primary);
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10967,7 +10968,7 @@ html.lenis body {
   }
 }
 .rs-footer-two.has-space > .rs-footer-top {
-  padding: 0px 0 90px;
+  padding: 0px 0 0px;
 }
 @media only screen and (max-width: 767px) {
   .rs-footer-two.has-space > .rs-footer-top {
@@ -22814,7 +22815,7 @@ color: #f56600;
   background: var(--rs-white);
   color: var(--rs-text-primary);
   font-weight: 500;
-  padding: 10px 60px 10px 60px;
+  padding: 0px 60px 10px 60px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -22824,6 +22825,7 @@ color: #f56600;
 @media only screen and (max-width: 480px) {
   .rs-history-one .rs-history-tab .nav-link {
     width: 100%;
+    margin-top: -25px;
   }
 }
 .rs-history-one .rs-history-tab .nav-link::after {
@@ -22871,9 +22873,9 @@ color: #f56600;
   margin-top: 50px;
 }
 .rs-history-one .rs-history-tab-content p {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   margin-top: 15px;
-  max-width: 450px;
+max-width: 1000px;
 }
 .rs-history-one .rs-history-tab-anim .tab-pane.active .rs-history-tab-item {
   -webkit-animation: slide-down 5s ease-out;
